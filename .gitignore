@@ -1,0 +1,12 @@
+*.rbxl.lock
+.DS_Store
+.vscode/.history/
+.env
+.env.*
+!*.example
+rojo-sourcemap.json
+
+# Studio local snapshots are separate from Git source of truth
+studio/*.rbxl
+studio/*.rbxlx
+studio/*.rbxl.lock
