@@ -1,3 +1,2 @@
 [tools]
-# Pin Rojo version after verifying compatibility with the project's Studio plugin.
-# rojo = "rojo-rbx/rojo@VERSION"
+rojo = "rojo-rbx/rojo@7.7.1"

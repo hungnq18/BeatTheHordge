@@ -2,6 +2,7 @@
 -- Server composition root. Do not process rewards, damage or purchases on client.
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local names = require(ReplicatedStorage.Shared.Contracts.RemoteNames)
+local ProfileService = require(script.Parent.Economy.ProfileService)
 local folder = ReplicatedStorage:FindFirstChild("GameRemotes")
 if not folder then
     folder = Instance.new("Folder")
@@ -15,4 +16,6 @@ for _, name in pairs(names) do
         remote.Parent = folder
     end
 end
-print("[BeatTheHorde] Server scaffold loaded; gameplay services are NOT wired yet")
+ProfileService.init()
+
+print("[BeatTheHorde] Server scaffold loaded; gameplay services are NOT wired yet (ProfileService active)")

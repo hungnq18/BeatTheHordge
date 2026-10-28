@@ -1,0 +1,10 @@
+{
+    "luau-lsp.platform.type": "roblox",
+    "luau-lsp.types.roblox": true,
+    "luau-lsp.types.robloxSecurityLevel": "PluginSecurity",
+    "luau-lsp.sourcemap.enabled": true,
+    "luau-lsp.sourcemap.autogenerate": true,
+    "luau-lsp.sourcemap.rojoPath": "C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Rojo.Rojo_Microsoft.Winget.Source_8wekyb3d8bbwe\\rojo.exe",
+    "luau-lsp.sourcemap.rojoProjectFile": "default.project.json",
+    "luau-lsp.sourcemap.sourcemapFile": "rojo-sourcemap.json"
+}
